@@ -13,10 +13,18 @@
     <!-- Right navbar links -->
     <ul class="navbar-nav mr-auto ml-5">
         <!-- Messages Dropdown Menu -->
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown position-relative">
             <a class="nav-link" data-toggle="dropdown" href="#">
                 <i class="fa fa-comments-o"></i>
-                <img src="/img/user1-128x128.jpg" alt="عکس پروفایل {{auth()->user()->name}}" class="rounded" width="47" height="47">
+                <img src="/img/user1-128x128.jpg" alt="عکس پروفایل {{auth()->user()->name}}" class="rounded-circle border border-2 border-opacity-50" width="47" height="47">
+                <div class="d-md-flex d-none flex-row-reverse position-absolute" style="top: 8px;left: 51px">
+                    <a href="" style="width: 47px;height: 47px" class="rounded-circle bg-white border border-2 border-opacity-50 position-relative">
+                        <img class="position-absolute" style="top:10px;left: 10px" src="/img/images/bell.png" alt="اعلانات {{auth()->user()->name}}" width="25" height="25">
+                    </a>
+                    <a href="" style="width: 47px;height: 47px;margin-left: 12px" class="rounded-circle bg-white border border-2 border-opacity-50 position-relative">
+                        <img class="position-absolute" style="top:10px;left: 10px" src="/img/images/cart.png" alt="سبدخرید {{auth()->user()->name}}" width="25" height="25">
+                    </a>
+                </div>
             </a>
             <div class="dropdown-menu-profile dropdown-menu dropdown-menu-lg dropdown-menu-left p-3">
                 <div class="d-flex">
@@ -54,6 +62,18 @@
                             <a href="pages/widgets.html" class="nav-link">
                                 <i class="nav-icon fa fa-comment-alt" aria-hidden="true"></i>
                                 <span>دیدگاه ها</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-md-none">
+                            <a href="pages/widgets.html" class="nav-link">
+                                <i class="nav-icon fa fa-bell" aria-hidden="true"></i>
+                                <span>اعلانات</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-md-none">
+                            <a href="pages/widgets.html" class="nav-link">
+                                <i class="nav-icon fa fa-cart-shopping" aria-hidden="true"></i>
+                                <span>سبد خرید</span>
                             </a>
                         </li>
                         <li class="nav-item">
