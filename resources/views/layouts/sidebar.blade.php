@@ -20,13 +20,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="pages/widgets.html" class="nav-link">
+                        <a href="{{route('user.full.activity')}}" class="nav-link">
                             <i class="nav-icon fa fa-shopping-bag"></i>
                             <span>سفارش ها</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="pages/widgets.html" class="nav-link">
+                        <a href="{{route('user.favorites.lists')}}" class="nav-link">
                             <i class="nav-icon fa fa-heart" aria-hidden="true"></i>
                             <span>لیست های من</span>
                         </a>

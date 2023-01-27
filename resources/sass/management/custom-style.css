@@ -1,3 +1,16 @@
+@media only screen and (max-width:400px) {
+    .favorites-text h2,span,a{
+        font-size: 10px !important;
+        color: black;
+    }
+    .favorites-text{
+        width: 50% !important;
+    }
+}
+.favorites-box:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    z-index: 10;
+}
 @font-face {
     font-family: Vazir;
     src: url('../fonts/Vazir.eot');

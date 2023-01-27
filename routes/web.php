@@ -40,5 +40,6 @@ Route::middleware('auth')->group(function () {
    Route::get('profile/notification/management',[\App\Http\Controllers\Profile\ProfileController::class,'notifManageShow'])->name('profile.notification.show');
    Route::get('profile/user/activity',[\App\Http\Controllers\Profile\ProfileLinksController::class,'activityShow'])->name('user.activity');
    Route::get('profile/user/full/activity',[\App\Http\Controllers\Profile\ProfileLinksController::class,'viewFullActivity'])->name('user.full.activity');
+   Route::get('profile/user/lists',[\App\Http\Controllers\Profile\FavoritesListController::class,'index'])->name('user.favorites.lists');
 
 });

@@ -47,7 +47,7 @@
                 <div>
                     <ul class="nav nav-pills nav-sidebar flex-column main-sidebar-right text-end" data-widget="treeview" role="menu" data-accordion="false">
                         <li class="nav-item">
-                            <a href="pages/widgets.html" class="nav-link">
+                            <a href="{{route('user.full.activity')}}" class="nav-link">
                                 <i class="nav-icon fa fa-shopping-bag"></i>
                                 <span>سفارش ها</span>
                             </a>
