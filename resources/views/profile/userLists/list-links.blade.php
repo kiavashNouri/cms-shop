@@ -8,8 +8,8 @@
                        href="{{route('user.favorites.lists')}}">لیست علاقه مندی ها</a>
                 </li>
                 <li>
-                    <a class="list-group-item text-decoration-none link-secondary {{isUrl(route('profile.2fa-manage'),'border border-primary rounded-4 p-3 text-primary')}}"
-                       href="{{route('profile.2fa-manage')}}">لیست عمومی</a>
+                    <a class="list-group-item text-decoration-none link-secondary {{isUrl(route('user.public.list'),'border border-primary rounded-4 p-3 text-primary')}}"
+                       href="{{route('user.public.list')}}">لیست عمومی</a>
                 </li>
 
             </ul>

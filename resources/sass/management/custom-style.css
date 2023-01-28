@@ -3,6 +3,10 @@
         font-size: 10px !important;
         color: black;
     }
+    .fa-share-alt,.btn-outline-primary{
+        font-size: 10px !important;
+
+    }
     .favorites-text{
         width: 50% !important;
     }
@@ -10,6 +14,13 @@
 .favorites-box:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2);
     z-index: 10;
+}
+.public-list:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    z-index: 10;
+}
+.public-list img{
+    margin-bottom: 18px;
 }
 @font-face {
     font-family: Vazir;

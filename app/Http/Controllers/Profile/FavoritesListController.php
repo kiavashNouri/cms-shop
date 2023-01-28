@@ -11,4 +11,10 @@ class FavoritesListController extends Controller
     {
         return view('profile.userLists.favorites-list');
     }
+
+    public function publicList()
+    {
+        return view('profile.userLists.public-list');
+
+    }
 }
