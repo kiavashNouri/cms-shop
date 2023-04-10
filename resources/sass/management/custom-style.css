@@ -22,6 +22,19 @@
 .public-list img{
     margin-bottom: 18px;
 }
+.positive span::before {
+    content: "+";
+    position: relative;
+    left: 5px;
+    color: green;
+}
+.negative span::before {
+    content: "-";
+    position: relative;
+    left: 5px;
+    color: red;
+}
+
 @font-face {
     font-family: Vazir;
     src: url('../fonts/Vazir.eot');
