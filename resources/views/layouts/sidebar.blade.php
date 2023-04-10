@@ -32,7 +32,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="pages/widgets.html" class="nav-link">
+                        <a href="{{route('pending.to.comment')}}" class="nav-link">
                             <i class="nav-icon fa fa-comment-alt" aria-hidden="true"></i>
                             <span>دیدگاه ها</span>
                         </a>

@@ -42,5 +42,6 @@ Route::middleware('auth')->group(function () {
    Route::get('profile/user/full/activity',[\App\Http\Controllers\Profile\ProfileLinksController::class,'viewFullActivity'])->name('user.full.activity');
    Route::get('profile/user/wishlist',[\App\Http\Controllers\Profile\FavoritesListController::class,'index'])->name('user.favorites.lists');
     Route::get('profile/user/public/list',[\App\Http\Controllers\Profile\FavoritesListController::class,'publicList'])->name('user.public.list');
+    Route::get('profile/user/pending/comment',[\App\Http\Controllers\Profile\CommentsController::class,'index'])->name('pending.to.comment');
 
 });
