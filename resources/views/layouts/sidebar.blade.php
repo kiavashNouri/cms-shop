@@ -38,7 +38,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="pages/widgets.html" class="nav-link">
+                        <a href="{{route('user.addresses')}}" class="nav-link">
                             <i class="nav-icon fa fa-address-card" aria-hidden="true"></i>
                             <span>آدرس ها</span>
                         </a>

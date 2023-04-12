@@ -4,12 +4,11 @@
         <div class="card-body pt-3">
             <ul class="list-group list-group-flush ">
                 <li>
-                    <a class="list-group-item text-decoration-none link-secondary {{isUrl(route('pending.to.comment'),'border border-primary rounded-4 p-3 text-primary')}}"
-                       href="{{route('pending.to.comment')}}">در انتظار دیدگاه</a>
+                    <a class="list-group-item text-decoration-none link-secondary {{isUrl(route('user.addresses'),'border border-primary rounded-4 p-3 text-primary')}}"
+                       href="{{route('pending.to.comment')}}">آدرس های شما</a>
                 </li>
                 <li>
-                    <a class="list-group-item text-decoration-none link-secondary {{isUrl(route('user.comments'),'border border-primary rounded-4 p-3 text-primary')}}"
-                       href="{{route('user.comments')}}">دیدگاه های شما</a>
+                    <button class="list-group-item text-decoration-none link-secondary {{isUrl(route('user.comments'),'border border-primary rounded-4 p-3 text-primary')}}">ایجاد آدرس</button>
                 </li>
             </ul>
         </div>

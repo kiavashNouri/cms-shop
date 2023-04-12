@@ -10,6 +10,9 @@
     .favorites-text{
         width: 50% !important;
     }
+    h1,h2,h3{
+        font-size: 12px !important;
+    }
 }
 .favorites-box:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2);
@@ -33,6 +36,10 @@
     position: relative;
     left: 5px;
     color: red;
+}
+
+div.flex-column span{
+    margin-bottom: 11px;
 }
 
 @font-face {

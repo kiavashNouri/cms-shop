@@ -44,5 +44,6 @@ Route::middleware('auth')->group(function () {
     Route::get('profile/user/public/list',[\App\Http\Controllers\Profile\FavoritesListController::class,'publicList'])->name('user.public.list');
     Route::get('profile/user/pending/comment',[\App\Http\Controllers\Profile\CommentsController::class,'pending'])->name('pending.to.comment');
     Route::get('profile/user/comments',[\App\Http\Controllers\Profile\CommentsController::class,'index'])->name('user.comments');
+    Route::get('profile/user/addresses',[\App\Http\Controllers\Profile\AddressController::class,'index'])->name('user.addresses');
 
 });
