@@ -45,5 +45,6 @@ Route::middleware('auth')->group(function () {
     Route::get('profile/user/pending/comment',[\App\Http\Controllers\Profile\CommentsController::class,'pending'])->name('pending.to.comment');
     Route::get('profile/user/comments',[\App\Http\Controllers\Profile\CommentsController::class,'index'])->name('user.comments');
     Route::get('profile/user/addresses',[\App\Http\Controllers\Profile\AddressController::class,'index'])->name('user.addresses');
+    Route::get('profile/user/notifications',[\App\Http\Controllers\Profile\NotificationController::class,'index'])->name('user.notifications');
 
 });

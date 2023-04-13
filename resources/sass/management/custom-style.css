@@ -13,7 +13,21 @@
     h1,h2,h3{
         font-size: 12px !important;
     }
+
 }
+.bell-reminder::before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../../public/img/images/notif.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 7px;
+    margin-left: 8px;
+    border-radius:50%
+}
+
 .favorites-box:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2);
     z-index: 10;

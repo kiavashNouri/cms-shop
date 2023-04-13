@@ -17,9 +17,14 @@
                     <input type="email" class="form-control bg-light" name="email" disabled id="email" placeholder="www.kiavash7666@gmail.com">
                 </div>
 
+                <div class="form-group col-md-6">
+                    <label for="email">شماره تلفن</label>
+                    <input type="text" class="form-control bg-light" name="phone" id="phone" placeholder="شماره تلفنت برای خریدات لازمه :)">
+                </div>
+
                 <div class="form-group col-md-4">
                     <label for="age">تاریخ تولد</label>
-                    <input type="text" class="form-control" name="number" id="number" value="25">
+                    <input type="text" class="form-control" name="birthdate" id="birthdate" placeholder="چند سالته شما؟!" value="25">
                 </div>
                 <div class="form-group col-12">
                     <label for="about">در باره من</label>
