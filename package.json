@@ -15,6 +15,10 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
-        "sweetalert2": "^11.4.8"
+        "jquery": "^3.6.4",
+        "jquery-lazy": "^1.7.11",
+        "sweetalert2": "^11.4.8",
+        "swiper": "^9.2.3",
+        "zuck.js": "^2.0.4"
     }
 }

@@ -9,7 +9,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="/fontawesome/css/all.css" >
 
-    <link rel="stylesheet" href="/fontawesome/css/fontawesome.css" >
+    <link rel="stylesheet" href="/fontawesome/css/fontawesome.css">
     <link href="/fontawesome/css/brands.css" rel="stylesheet">
     <link href="/fontawesome/css/solid.css" rel="stylesheet">
     <!-- Ionicons -->
